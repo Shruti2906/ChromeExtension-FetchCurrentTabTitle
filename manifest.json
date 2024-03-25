@@ -1,0 +1,21 @@
+{
+    "name": "title Fetcher",
+    "description":"Extension to fetch title of current tab.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action":{
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "icons": {
+        "16": "/Images/ext_icon2.png",
+        "32": "/Images/ext_icon2.png",
+        "48": "/Images/ext_icon2.png"
+    }
+}
